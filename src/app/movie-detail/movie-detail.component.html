@@ -1,0 +1,185 @@
+<div class="container">
+  <div class="row">
+    <mat-card class="example-card col-md-6">
+      <mat-card-header>
+        <div mat-card-avatar
+             class="example-header-image"></div>
+        <mat-card-title>{{movie.Title}}</mat-card-title>
+        <mat-card-subtitle>{{movie.Year}}</mat-card-subtitle>
+      </mat-card-header>
+      <img mat-card-image
+           src="{{movie.Poster}}"
+           alt="{{movie.Title}}">
+      <mat-list role="list">
+        <mat-list-item>Actors: {{movie.Actors}}</mat-list-item>
+        <mat-divider></mat-divider>
+        <mat-list-item>Awards: {{movie.Awards}}</mat-list-item>
+        <mat-divider></mat-divider>
+        <mat-list-item>Plot: {{movie.Plot}}</mat-list-item>
+      </mat-list>
+    </mat-card>
+    <div class="col-md-6">
+      <mat-accordion>
+        <mat-expansion-panel>
+
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              BoxOffice
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+
+          <p>{{movie.BoxOffice}}</p>
+
+        </mat-expansion-panel>
+        <mat-expansion-panel>
+
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              Country
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+
+          <p>{{movie.Country}}</p>
+
+        </mat-expansion-panel>
+        <mat-expansion-panel>
+
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              DVD
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+
+          <p>{{movie.DVD}}</p>
+
+        </mat-expansion-panel>
+        <mat-expansion-panel>
+
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              Genre
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+
+          <p>{{movie.Genre}}</p>
+
+        </mat-expansion-panel>
+        <mat-expansion-panel>
+
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              Language
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+
+          <p>{{movie.Language}}</p>
+
+        </mat-expansion-panel>
+        <mat-expansion-panel>
+
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              Metascore
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+
+          <p>{{movie.Metascore}}</p>
+
+        </mat-expansion-panel>
+        <mat-expansion-panel>
+
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              Poster
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+
+          <p>{{movie.Poster}}</p>
+
+        </mat-expansion-panel>
+        <mat-expansion-panel>
+
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              Production
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+
+          <p>{{movie.Production}}</p>
+
+        </mat-expansion-panel>
+        <mat-expansion-panel>
+
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              Rated
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+
+          <p>{{movie.Rated}}</p>
+
+        </mat-expansion-panel>
+        <mat-expansion-panel>
+
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              Rated
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+
+          <p>{{movie.Rated}}</p>
+
+        </mat-expansion-panel>
+        <mat-expansion-panel>
+
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              Ratings
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+
+          <mat-list role="list">
+            <mat-list-item *ngFor="let rate of movie.Ratings">
+              Source: {{rate.Source}}
+              Value: {{rate.Value}}
+            </mat-list-item>
+          </mat-list>
+
+        </mat-expansion-panel>
+        <mat-expansion-panel>
+
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              Released
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+
+          <p>{{movie.Released}}</p>
+
+        </mat-expansion-panel>
+        <mat-expansion-panel>
+
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              Response
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+
+          <p>{{movie.Response}}</p>
+
+        </mat-expansion-panel>
+        <mat-expansion-panel>
+
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              Runtime
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+
+          <p>{{movie.Runtime}}</p>
+
+        </mat-expansion-panel>
+      </mat-accordion>
+    </div>
+  </div>
+</div>

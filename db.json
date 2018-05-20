@@ -1,0 +1,87 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "movies": [
+    {
+      "id": "tt0077523",
+      "movie": {
+        "Title": "Every Which Way But Loose",
+        "Year": "1978",
+        "imdbID": "tt0077523",
+        "Type": "movie",
+        "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BNjFiNGZmNTktZTExZS00NzhlLWJjNTAtM2JlY2ZhNmI2N2YxL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNzc5MjA3OA@@._V1_SX300.jpg",
+        "check": true
+      }
+    },
+    {
+      "id": "tt1602002",
+      "movie": {
+        "Title": "A Killer App",
+        "Year": "2010",
+        "imdbID": "tt1602002",
+        "Type": "movie",
+        "Poster": "http://ia.media-imdb.com/images/M/MV5BMTc5MTA2MzE0N15BMl5BanBnXkFtZTcwOTEzNDEyMw@@._V1_SX300.jpg",
+        "check": true
+      }
+    },
+    {
+      "id": "tt3245334",
+      "movie": {
+        "Title": "Time Trip App",
+        "Year": "2014",
+        "imdbID": "tt3245334",
+        "Type": "movie",
+        "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BZGU5YjU2YTYtYmU2YS00MmUzLTg1OTQtMDc2Y2JmMjc2YzVmXkEyXkFqcGdeQXVyMjExMzEyNTM@._V1_SX300.jpg",
+        "check": true
+      }
+    },
+    {
+      "id": "tt2536436",
+      "movie": {
+        "Title": "App",
+        "Year": "2013",
+        "imdbID": "tt2536436",
+        "Type": "movie",
+        "Poster": "https://ia.media-imdb.com/images/M/MV5BMjMxMzc4NTEyN15BMl5BanBnXkFtZTgwNDgyMjA3MTE@._V1_SX300.jpg",
+        "check": true
+      }
+    },
+    {
+      "id": "tt4222700",
+      "movie": {
+        "Title": "App Love",
+        "Year": "2014",
+        "imdbID": "tt4222700",
+        "Type": "movie",
+        "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BNzczNGQwNzgtYmFlZi00MWY3LThjZDItY2ViNDE2NTY1NTQ0XkEyXkFqcGdeQXVyNjEyMzQ4Nzk@._V1_SX300.jpg",
+        "check": true
+      }
+    },
+    {
+      "id": "tt0204484",
+      "movie": {
+        "Title": "Mia Italida ap' tin Kypseli",
+        "Year": "1968",
+        "imdbID": "tt0204484",
+        "Type": "movie",
+        "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BODBlYTdjZGYtYTRlOC00MmJjLWI3NzctNWE5MzgwZmM5NGM5XkEyXkFqcGdeQXVyMDk1ODM3MA@@._V1_SX300.jpg",
+        "check": true
+      }
+    }
+  ]
+}

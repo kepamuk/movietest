@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="row">
+    <mat-progress-bar *ngIf="loading"
+                      mode="indeterminate"></mat-progress-bar>
+    <app-search-input
+            class="col-lg-12"
+            (movie)="onSearch($event)"
+            [movies]="movies">
+    </app-search-input>
+    <app-search-list class="col-md-4"
+                     *ngFor="let movie of movies.Search"
+                     [movie]="movie"></app-search-list>
+  </div>
+</div>

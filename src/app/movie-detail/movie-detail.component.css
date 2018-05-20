@@ -1,0 +1,8 @@
+.mat-list .mat-list-item{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: auto;
+}
+.mat-card .mat-divider{
+    position: static;
+}
